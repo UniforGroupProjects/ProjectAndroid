@@ -161,7 +161,7 @@ fun AplicativoZelus() {
                                         Toast.makeText(context, "Termine ou cancele a denúncia primeiro!", Toast.LENGTH_SHORT).show()
                                     }
                                 } else {
-                                    // 👇 A MÁGICA FOI ADICIONADA AQUI 👇
+
                                     if (index == 1) {
                                         permissaoCameraLauncher.launch(Manifest.permission.CAMERA) // Abre a Câmera
                                     } else if (index == 2) {
