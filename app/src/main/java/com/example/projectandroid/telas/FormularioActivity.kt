@@ -255,15 +255,15 @@ fun TelaSobreApp(onVoltarClick: () -> Unit, paddingBarra: PaddingValues) {
 
         Surface(shape = RoundedCornerShape(24.dp), color = Color(0xFFD6F5DA), modifier = Modifier.fillMaxWidth()) {
             Column(modifier = Modifier.padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(text = "O Zelus é um aplicativo criado para ajudar cidadãos a denunciar problemas urbanos de forma rápida e simples.", fontSize = 15.sp, color = Color.DarkGray)
+                Text(text = "O Zelus é um aplicativo criado para ajudar cidadãos a denunciar problemas urbanos de forma rápida e simples:", fontSize = 15.sp, color = Color.DarkGray)
                 Spacer(modifier = Modifier.height(16.dp))
 
                 val topicos = listOf(
-                    "Facilitar o registro de problemas urbanos na cidade",
-                    "Permitir que cidadãos enviem denúncias com foto e localização",
-                    "Ajudar na identificação rápida de problemas nas ruas",
-                    "Melhorar a comunicação entre moradores e órgãos responsáveis",
-                    "Contribuir para uma cidade mais organizada e segura"
+                    "Facilitar o registro de problemas urbanos na cidade;",
+                    "Permitir que cidadãos enviem denúncias com foto e localização;",
+                    "Ajudar na identificação rápida de problemas nas ruas;",
+                    "Melhorar a comunicação entre moradores e órgãos responsáveis;",
+                    "Contribuir para uma cidade mais organizada e segura."
                 )
 
                 topicos.forEach { topico ->
